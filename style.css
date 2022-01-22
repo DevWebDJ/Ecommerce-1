@@ -156,7 +156,7 @@ body{
 }
 
 #feature .fe-box:hover{
-    box-shadow: 10px 10px 54px rgb(212, 212, 212);
+    box-shadow: 10px 10px 54px rgb(228, 228, 228);
 }
 
 #feature .fe-box img{
@@ -193,6 +193,12 @@ body{
     text-align: center;
 }
 
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 #product1 .pro{
     width: 23%;
     min-width: 250px;
@@ -203,6 +209,7 @@ body{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.2s ease;
+    position: relative;
 }
 
 #product1 .pro:hover{
@@ -251,4 +258,7 @@ body{
     font-weight: 500;
     color: #2a7957;
     border: 1px solid #d0e2d0;
+    position: absolute;
+    bottom:20px;
+    right: 10px;
 }
